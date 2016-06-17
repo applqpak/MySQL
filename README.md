@@ -20,6 +20,6 @@
 
 ###`MySQL::__construct($host, $port, $username, $password)`
 
-###`MySQL::query($query, $fetch_assoc)` - $fetch_assoc should be either true or false, Pretty self-explanatory.
+###`MySQL::query($query, $fetch_assoc)` - $fetch_assoc should be either true or false(default is false), What it does is pretty self-explanatory.
 
 ###`MySQL::close(void)`
