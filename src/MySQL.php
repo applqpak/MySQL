@@ -114,7 +114,10 @@
               if($stmt_result->num_rows > 0)
               {
 
-                $row = $stmt_result->fetch_assoc();
+                while(($row[] = $stmt_result->fetch_assoc()))
+                {
+
+                }
 
                 return $row;
 
